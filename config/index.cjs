@@ -59,9 +59,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: ['宝贝'],['乔乔']  
+      name: '宝贝'
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ['oabhU6nYnStIAICbPtDFj1ML7nFw'],['oabhU6q_XMHZba54YSwR7loKcfiE'],
+      id: 'oabhU6q_XMHZba54YSwR7loKcfiE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'sEXxzHwP2Vp70XmYvjRFVpsyi8t_wgBXKtakoRXkP1s',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -75,6 +75,27 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '乔乔', year: '2001', date: '11-09',
         },
+           ],
+      {
+      name: '乔乔',
+      id: 'oabhU6nYnStIAICbPtDFj1ML7nFw',
+      useTemplateId: 'sEXxzHwP2Vp70XmYvjRFVpsyi8t_wgBXKtakoRXkP1s',
+      province: '内蒙古',
+      city: '鄂尔多斯',
+      festivals: [// 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝贝', year: '2001', date: '04-09',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '*生日', name: '乔乔', year: '2001', date: '11-09',
+        },
+      ],
+         customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-10-17' },  
+      ]
+    }
       ],
      
       /**
