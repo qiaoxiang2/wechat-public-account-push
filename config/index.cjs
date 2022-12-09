@@ -48,7 +48,7 @@ const USER_CONFIG = {
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: false,
+    birthdayMessage: true,
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: false,
@@ -63,7 +63,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oabhU6nYnStIAICbPtDFj1ML7nFw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'wgrI2UTU2o_74vrFH_NkvcTAy7Kd5GPqyBEObNJVAqM',
+      useTemplateId: 'A5wy6OMegdDZBAljwDjIHDJBJ6RfO7ATwJ44pqWSh_c',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-01',   
       festivals: [
