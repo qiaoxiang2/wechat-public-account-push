@@ -76,13 +76,7 @@ const USER_CONFIG = {
           type: '*生日', name: '乔乔', year: '2001', date: '11-09',
         },
           ],
-         customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-10-17' },  
-      ]
-    }
-      ],
-     
+        
       /**
      * 限制重要节日的展示条目, 需要填写数字;
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -100,7 +94,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'ZRIv_FClBibZvrpoJq4CYeuOhYMJjGi0WAMOPAmA8S0',
+  CALLBACK_TEMPLATE_ID: 'sEXxzHwP2Vp70XmYvjRFVpsyi8t_wgBXKtakoRXkP1s',
 
   CALLBACK_USERS: [
     {
