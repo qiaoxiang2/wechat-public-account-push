@@ -25,7 +25,7 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: true,
+    CIBA: false,
     
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     oneTalk: false,
@@ -44,11 +44,11 @@ const USER_CONFIG = {
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
+    horoscope: false,
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: true,
+    birthdayMessage: false,
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: false,
@@ -88,7 +88,7 @@ const USER_CONFIG = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-     FESTIVALS_LIMIT: 3,
+     festivals_limt: 3,
       
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
