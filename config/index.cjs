@@ -81,7 +81,8 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-08' },  
       ],
- 
+   },
+  ],
 
       // 想要发送的人的名字
       name: '乔乔',
