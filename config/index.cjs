@@ -43,6 +43,9 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-17' }, 
+        "weather_key": "ca6235fd85974ea183b98f670c2539e5",
+        "note_ch": "",
+        "note_en": "",
       ],
     },
   ],
