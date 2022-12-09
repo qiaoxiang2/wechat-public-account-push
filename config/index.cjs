@@ -13,13 +13,13 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '5b3d9c442fba742ec48e8879885fa297',
 
-  PROVINCE: '内蒙古',
+  PROVINCE: '内蒙古自治区',
   CITY: '赤峰',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝贝''乔乔',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '["oabhU6nYnStIAICbPtDFj1ML7nFw","oabhU6q_XMHZba54YSwR7loKcfiE"]',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -43,9 +43,47 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-17' }, 
-        "weather_key": "ca6235fd85974ea183b98f670c2539e5",
-        "note_ch": "",
-        "note_en": "",
+         // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: true,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: false,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: true,
+    
+    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poisonChickenSoup: false,
+    
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: false,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+    /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: false,
+  },
       ],
     },
   ],
