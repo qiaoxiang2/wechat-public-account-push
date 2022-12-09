@@ -17,7 +17,7 @@ const USER_CONFIG = {
   SWITCH: {
     /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: false,
+    weather: true,
 
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -65,9 +65,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'hkv3d8yxP5q35HU8GHjhVR_id5YkmuRrmx8bnyA1uIc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '05-01',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
+      horoscopeDate: '05-01',   
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
