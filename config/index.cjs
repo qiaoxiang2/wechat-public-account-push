@@ -114,7 +114,6 @@ const USER_CONFIG = {
    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
    * */
     // 这样配置的话，就会每次随机选一句话发送
-    {
       keyword: 'lover_prattle',
       contents: [
         '因为太喜欢你，所以看谁都像是情敌。',
