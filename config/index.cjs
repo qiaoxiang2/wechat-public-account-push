@@ -75,22 +75,7 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '乔乔', year: '2001', date: '11-09',
         },
-           ],
-      {
-      name: '乔乔',
-      id: 'oabhU6nYnStIAICbPtDFj1ML7nFw',
-      useTemplateId: 'sEXxzHwP2Vp70XmYvjRFVpsyi8t_wgBXKtakoRXkP1s',
-      province: '内蒙古',
-      city: '鄂尔多斯',
-      festivals: [// 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '2001', date: '04-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '*生日', name: '乔乔', year: '2001', date: '11-09',
-        },
-      ],
+          ],
          customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-17' },  
@@ -115,7 +100,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'ZRIv_FClBibZvrpoJq4CYeuOhYMJjGi0WAMOPAmA8S0',
+  CALLBACK_TEMPLATE_ID: 'sEXxzHwP2Vp70XmYvjRFVpsyi8t_wgBXKtakoRXkP1s',
 
   CALLBACK_USERS: [
     {
