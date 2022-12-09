@@ -108,7 +108,8 @@ const USER_CONFIG = {
       id: 'oabhU6nYnStIAICbPtDFj1ML7nFw',
     } 
   ],
-}
+
+  }
 
 module.exports = USER_CONFIG
 
